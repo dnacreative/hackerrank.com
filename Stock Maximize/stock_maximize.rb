@@ -7,3 +7,6 @@ T.times do
     forecast = gets.chomp.split(" ").map!{ |v| v.to_i }
 end
 
+def profit(arr)
+
+end
