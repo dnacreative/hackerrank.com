@@ -11,9 +11,9 @@ gets.chomp.to_i.times do
     
     0.upto(n-1) do |step|
         result *= h[step]
+        result %= 1000000007
         h[step+1] += h[step] -1
     end
-    puts result % 1000000007
     
 end
     
