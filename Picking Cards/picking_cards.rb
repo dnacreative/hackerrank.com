@@ -15,5 +15,6 @@ gets.chomp.to_i.times do
         h[step+1] += h[step] -1
     end
     
+    puts result
 end
     
