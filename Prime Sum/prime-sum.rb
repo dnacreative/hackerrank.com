@@ -1,5 +1,6 @@
 require 'openssl'
 def miller_rabin_prime?(n,g)
+  return true if n == 2
   d = n - 1
   s = 0
   while d % 2 == 0
@@ -24,7 +25,7 @@ def primes_sum(n,k)
     return false if (n / 2) < k
     
     if k == 1
-        if miller_rabin_prime?(n,100)
+        if miller_rabin_prime?(n,10)
             return true
         else
             return false
@@ -33,7 +34,7 @@ def primes_sum(n,k)
 
     if k == 2
         return true if (n.even? && n >= 4)
-        return true if (!n.even? && miller_rabin_prime?(n-2,100))
+        return true if (!n.even? && miller_rabin_prime?(n-2,10))
         return false
     end
 
