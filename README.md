@@ -9,3 +9,4 @@
 - [The Love-Letter Mystery](https://www.hackerrank.com/contests/w3/challenges/the-love-letter-mystery)
 - [Triangle Numbers](https://www.hackerrank.com/challenges/triangle-numbers)
 - [Utopian Tree](https://www.hackerrank.com/challenges/utopian-tree)
+- [Xoring Ninja](https://www.hackerrank.com/challenges/xoring-ninja)
